@@ -15,7 +15,7 @@ export const Token = () => {
   };
   return (
     <div>
-      <p>Token: {token}</p>
+      <p>Host Token: {token}</p>
       <form onSubmit={handleSubmit}>
         <input type="text" name="token" />
         <button type="submit">Submit</button>
